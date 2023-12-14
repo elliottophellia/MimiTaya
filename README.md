@@ -12,9 +12,9 @@ SPDX-License-Identifier: MIT
 </p>
 
 <div align="center">
-    <img src="https://img.shields.io/github/license/elliottophellia/MimiTaya?style=for-the-badge&logo=github&color=3380F5"/>
-    <img src="https://img.shields.io/github/actions/workflow/status/elliottophellia/MimiTaya/build-deploy.yml?style=for-the-badge&logo=github&color=3380F5"/>
-    <img src="https://img.shields.io/github/commit-activity/t/elliottophellia/MimiTaya?style=for-the-badge&logo=github&color=3380F5"/>
+    <img src="https://img.shields.io/github/license/elliottophellia/MimiTaya?style=for-the-badge&logo=github&color=c958a1"/>
+    <img src="https://img.shields.io/github/actions/workflow/status/elliottophellia/MimiTaya/build-deploy.yml?style=for-the-badge&logo=github&color=c958a1"/>
+    <img src="https://img.shields.io/github/commit-activity/t/elliottophellia/MimiTaya?style=for-the-badge&logo=github&color=c958a1"/>
 </div>
 
 <h2>💬 Q&A:</h2>
