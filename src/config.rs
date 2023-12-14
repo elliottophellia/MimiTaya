@@ -75,12 +75,12 @@ pub mod Offsets {
 }
 
 pub mod Signatures {
-    pub const dwEntityList: &str = "48 8B 0D ? ? ? ? 48 89 7C 24 ? 8B FA C1 EB";
-    pub const dwLocalPlayerController: &str = "48 8B 05 ? ? ? ? 48 85 C0 74 4F";
-    pub const dwLocalPlayerPawn: &str = "48 8D 05 ? ? ? ? C3 CC CC CC CC CC CC CC CC 48 83 EC ? 8B 0D";
-    pub const dwPlantedC4: &str = "48 8B 15 ? ? ? ? FF C0 48 8D 4C 24 40";
-    pub const dwViewAngles: &str = "48 8B 0D ? ? ? ? E9 ? ? ? ? CC CC CC CC 40 55";
-    pub const dwViewMatrix: &str = "48 8D 0D ? ? ? ? 48 C1 E0 06";
+    pub const dwEntityList: &str = "48 8B 0D ?? ?? ?? ?? 48 89 7C 24 ?? 8B FA C1 EB";
+    pub const dwLocalPlayerController: &str = "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 4F";
+    pub const dwLocalPlayerPawn: &str = "48 8D 05 ?? ?? ?? ?? C3 CC CC CC CC CC CC CC CC 48 83 EC ?? 8B 0D";
+    pub const dwPlantedC4: &str = "48 8B 15 ?? ?? ?? ?? FF C0 48 8D 4C 24 40";
+    pub const dwViewAngles: &str = "48 8B 0D ?? ?? ?? ?? E9 ?? ?? ?? ?? CC CC CC CC 40 55";
+    pub const dwViewMatrix: &str = "48 8D 0D ?? ?? ?? ?? 48 C1 E0 06";
 }
 
 pub mod ProgramConfig {
