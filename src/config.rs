@@ -1,4 +1,4 @@
-// Copyright (c) 2023 Vytrol <vytrol@proton.me>
+// Copyright (c) 2023 Vytrol <vytrol@proton.me> - Ophellia <me@rei.my.id>
 // SPDX-License-Identifier: MIT
 
 #![allow(non_snake_case, non_upper_case_globals)]
@@ -28,17 +28,17 @@ pub mod Offsets {
     }
 
     pub mod C_CSPlayerPawnBase { // C_BasePlayerPawn
-        pub const m_vecLastClipCameraPos: usize = 0x128C; // Vector
-        pub const m_angEyeAngles: usize = 0x1510; // QAngle
-        pub const m_pClippingWeapon: usize = 0x12A8; // C_CSWeaponBase*
-        pub const m_iIDEntIndex: usize = 0x153C; // CEntityIndex
-        pub const m_entitySpottedState: usize = 0x1630; // EntitySpottedState_t
-        pub const m_ArmorValue: usize = 0x1508; // int32_t
-        pub const m_iShotsFired: usize = 0x1418; // int32_t
+        pub const m_vecLastClipCameraPos: usize = 0x1294; // Vector
+        pub const m_angEyeAngles: usize = 0x1518; // QAngle
+        pub const m_pClippingWeapon: usize = 0x12B0; // C_CSWeaponBase*
+        pub const m_iIDEntIndex: usize = 0x1544; // CEntityIndex
+        pub const m_entitySpottedState: usize = 0x1638; // EntitySpottedState_t
+        pub const m_ArmorValue: usize = 0x1510; // int32_t
+        pub const m_iShotsFired: usize = 0x1420; // int32_t
     }
 
     pub mod C_CSPlayerPawn { // C_CSPlayerPawnBase
-        pub const m_aimPunchCache: usize = 0x1738; // CUtlVector<QAngle>
+        pub const m_aimPunchCache: usize = 0x1740; // CUtlVector<QAngle>
     }
 
     pub mod CGameSceneNode {
@@ -75,19 +75,19 @@ pub mod Offsets {
 }
 
 pub mod Signatures {
-    pub const dwEntityList: &str = "48 8B 0D ?? ?? ?? ?? 48 89 7C 24 ?? 8B FA C1";
-    pub const dwLocalPlayerController: &str = "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 4F";
-    pub const dwLocalPlayerPawn: &str = "48 8D 05 ?? ?? ?? ?? C3 CC CC CC CC CC CC CC CC 48 83 EC ?? 8B 0D";
-    pub const dwPlantedC4: &str = "48 8B 15 ?? ?? ?? ?? FF C0 48 8D 4C 24 40";
-    pub const dwViewAngles: &str = "48 8B 0D ?? ?? ?? ?? E9 ?? ?? ?? ?? CC CC CC CC 40 55";
-    pub const dwViewMatrix: &str = "48 8D 0D ?? ?? ?? ?? 48 C1 E0 06";
+    pub const dwEntityList: &str = "48 8B 0D ? ? ? ? 48 89 7C 24 ? 8B FA C1 EB";
+    pub const dwLocalPlayerController: &str = "48 8B 05 ? ? ? ? 48 85 C0 74 4F";
+    pub const dwLocalPlayerPawn: &str = "48 8D 05 ? ? ? ? C3 CC CC CC CC CC CC CC CC 48 83 EC ? 8B 0D";
+    pub const dwPlantedC4: &str = "48 8B 15 ? ? ? ? FF C0 48 8D 4C 24 40";
+    pub const dwViewAngles: &str = "48 8B 0D ? ? ? ? E9 ? ? ? ? CC CC CC CC 40 55";
+    pub const dwViewMatrix: &str = "48 8D 0D ? ? ? ? 48 C1 E0 06";
 }
 
 pub mod ProgramConfig {
     pub mod Package {
-        pub const Name: &str = "ProExt";
+        pub const Name: &str = "MimiTaya";
         pub const Description: &str = "An open-source, external CS2 cheat.";
-        pub const Executable: &str = "proext.exe";
+        pub const Executable: &str = "MimiTaya.exe";
         pub const Version: &str = env!("CARGO_PKG_VERSION");
         pub const Authors: &str = &env!("CARGO_PKG_AUTHORS");
     }
@@ -104,8 +104,8 @@ pub mod ProgramConfig {
 
     pub mod Update {
         pub const Enabled: bool = true;
-        pub const URL: &str = "https://github.com/vytrol/ProExt/raw/main/bin/proext.exe";
-        pub const HashURL: &str = "https://github.com/vytrol/ProExt/raw/main/bin/hash.txt";
+        pub const URL: &str = "https://github.com/elliottophellia/MimiTaya/raw/main/bin/MimiTaya.exe";
+        pub const HashURL: &str = "https://github.com/elliottophellia/MimiTaya/raw/main/bin/hash.txt";
     }
 
     pub mod RPC {
@@ -115,8 +115,8 @@ pub mod ProgramConfig {
     }
 
     pub mod Links {
-        pub const Source: &str = "https://github.com/vytrol/ProExt";
-        pub const License: &str = "https://raw.githubusercontent.com/vytrol/ProExt/main/LICENSE";
+        pub const Source: &str = "https://github.com/elliottophellia/MimiTaya";
+        pub const License: &str = "https://raw.githubusercontent.com/elliottophellia/MimiTaya/main/LICENSE";
         pub const Discord: &str = "https://discord.gg/8t2vNHMJW6";
     }
 

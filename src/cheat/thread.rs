@@ -1,4 +1,4 @@
-// Copyright (c) 2023 Vytrol <vytrol@proton.me>
+// Copyright (c) 2023 Vytrol <vytrol@proton.me> - Ophellia <me@rei.my.id>
 // SPDX-License-Identifier: MIT
 
 use std::thread;

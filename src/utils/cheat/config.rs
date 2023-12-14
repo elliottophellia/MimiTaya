@@ -1,4 +1,4 @@
-// Copyright (c) 2023 Vytrol <vytrol@proton.me>
+// Copyright (c) 2023 Vytrol <vytrol@proton.me> - Ophellia <me@rei.my.id>
 // SPDX-License-Identifier: MIT
 
 use std::fs::{File, OpenOptions, read_dir, metadata, create_dir_all, remove_file};
@@ -629,28 +629,28 @@ impl Default for StyleColors {
             window_bg: (25, 25, 25, 235),
             child_bg: (25, 25, 25, 235),
             popup_bg: (35, 35, 35, 235),
-            border: (51, 128, 245, 255),
+            border: (201, 88, 161, 255),
             border_shadow: (15, 15, 15, 255),
-            frame_bg: (51, 128, 245, 50),
-            frame_bg_hovered: (51, 128, 245, 100),
-            frame_bg_active: (51, 128, 245, 150),
-            title_bg: (51, 128, 245, 235),
-            title_bg_collapsed: (51, 128, 245, 235),
-            title_bg_active: (51, 128, 245, 235),
-            text_selected_bg: (51, 128, 245, 255),
-            checkmark: (51, 128, 245, 255),
+            frame_bg: (201, 88, 161, 50),
+            frame_bg_hovered: (201, 88, 161, 100),
+            frame_bg_active: (201, 88, 161, 150),
+            title_bg: (201, 88, 161, 235),
+            title_bg_collapsed: (201, 88, 161, 235),
+            title_bg_active: (201, 88, 161, 235),
+            text_selected_bg: (201, 88, 161, 255),
+            checkmark: (201, 88, 161, 255),
             scrollbar_bg: (25, 25, 25, 255),
             scrollbar_grab: (45, 45, 45, 255),
             scrollbar_grab_hovered: (45, 45, 45, 225),
             scrollbar_grab_active: (45, 45, 45, 200),
-            slider_grab: (51, 128, 245, 255),
-            slider_grab_active: (51, 128, 245, 225),
-            button: (51, 128, 245, 255),
-            button_hovered: (51, 128, 245, 225),
-            button_active: (51, 128, 245, 200),
-            tab: (51, 128, 245, 255),
-            tab_hovered: (51, 128, 245, 175),
-            tab_active: (51, 128, 245, 150),
+            slider_grab: (201, 88, 161, 255),
+            slider_grab_active: (201, 88, 161, 225),
+            button: (201, 88, 161, 255),
+            button_hovered: (201, 88, 161, 225),
+            button_active: (201, 88, 161, 200),
+            tab: (201, 88, 161, 255),
+            tab_hovered: (201, 88, 161, 175),
+            tab_active: (201, 88, 161, 150),
             separator: (175, 175, 175, 125)
         };
     }

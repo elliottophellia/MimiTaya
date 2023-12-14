@@ -30,14 +30,14 @@ jobs:
             rm -r -fo ./bin
           }
           mkdir ./bin
-          move ./build/x86_64-pc-windows-msvc/release/proext.exe ./bin
+          move ./build/x86_64-pc-windows-msvc/release/MimiTaya.exe ./bin
       - name: Save hash
         run: |
-          $(CertUtil -hashfile ./bin/proext.exe MD5)[1] -replace " ","" > ./bin/hash.txt
+          $(CertUtil -hashfile ./bin/MimiTaya.exe MD5)[1] -replace " ","" > ./bin/hash.txt
       - name: Commit and push
         run: |
-          git config --global user.name "Vytrol"
-          git config --global user.email "63375371+vytrol@users.noreply.github.com"
+          git config --global user.name "elliottophellia"
+          git config --global user.email "me@rei.my.id"
           git add ./bin -f
           git commit -m "📦 Updated Binaries"
           git push -f
