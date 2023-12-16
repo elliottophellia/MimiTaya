@@ -1,5 +1,5 @@
 # Copyright (c) 2023 Vytrol <vytrol@proton.me> - Ophellia <me@rei.my.id>
-# SPDX-License-Identifier: MIT 
+# SPDX-License-Identifier: MIT  
 
 name: Build and deploy software
 on:
