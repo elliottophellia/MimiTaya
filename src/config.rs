@@ -86,7 +86,7 @@ pub mod Signatures {
 pub mod ProgramConfig {
     pub mod Package {
         pub const Name: &str = "MimiTaya";
-        pub const Description: &str = "An open-source, external CS2 cheat.";
+        pub const Description: &str = "Fork of ProExt by Vytrol maintained by Ophellia";
         pub const Executable: &str = "MimiTaya.exe";
         pub const Version: &str = env!("CARGO_PKG_VERSION");
         pub const Authors: &str = &env!("CARGO_PKG_AUTHORS");
@@ -117,7 +117,6 @@ pub mod ProgramConfig {
     pub mod Links {
         pub const Source: &str = "https://github.com/elliottophellia/MimiTaya";
         pub const License: &str = "https://raw.githubusercontent.com/elliottophellia/MimiTaya/main/LICENSE";
-        pub const Discord: &str = "https://discord.gg/8t2vNHMJW6";
     }
 
     pub mod Keys {

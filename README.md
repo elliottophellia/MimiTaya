@@ -8,7 +8,8 @@ SPDX-License-Identifier: MIT
 </h1>
 
 <p align="center">
-    Fork of ProExt by Vytrol, Only updating offset and not planning to adding new features
+    Fork of ProExt by Vytrol, only updating offset and not planning to adding new features.<br/>
+    There is bug? Code not efficient? Want to add new features? Feel free to pull request. 
 </p>
 
 <div align="center">

@@ -35,7 +35,7 @@ fn main() {
     }
 
     if !cfg!(debug_assertions) {
-        let caption = "Copyright (c) 2023 Vytrol <vytrol@proton.me> - Ophellia <me@rei.my.id>";
+        let caption = "MimiTaya";
         let text = format!("Would you like to start {} v{}?", ProgramConfig::Package::Name, ProgramConfig::Package::Version);
 
         match create_dialog(MessageBoxStyle::Info, MessageBoxButtons::YesNo, &caption, &text) {
