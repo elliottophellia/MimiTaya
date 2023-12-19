@@ -3,7 +3,7 @@
 
 [package]
 name = "MimiTaya"
-version = "0.0.5"
+version = "19.12.23"
 authors = ["Vytrol <vytrol@proton.me>", "Ophellia <me@rei.my.id>"]
 edition = "2021"
 license = "MIT"
