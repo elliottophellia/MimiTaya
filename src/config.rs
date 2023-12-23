@@ -4,6 +4,8 @@
 #![allow(non_snake_case, non_upper_case_globals)]
 
 pub mod Offsets {
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    //            https://github.com/a2x/cs2-dumper/blob/main/generated/client.dll.rs                //
     pub mod C_BaseEntity {  // CEntityInstance
         pub const m_iHealth: usize = 0x32C; // int32_t
         pub const m_iTeamNum: usize = 0x3BF; // uint8_t
@@ -72,15 +74,19 @@ pub mod Offsets {
     pub mod C_BasePlayerWeapon { // C_EconEntity
         pub const m_iClip1: usize = 0x1570; // int32_t
     }
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
 }
 
 pub mod Signatures {
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    //                      https://github.com/a2x/cs2-dumper/blob/main/config.json                  //
     pub const dwEntityList: &str = "48 8B 0D ?? ?? ?? ?? 48 89 7C 24 ?? 8B FA C1 EB";
     pub const dwLocalPlayerController: &str = "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 4F";
     pub const dwLocalPlayerPawn: &str = "48 8D 05 ?? ?? ?? ?? C3 CC CC CC CC CC CC CC CC 48 83 EC ?? 8B 0D";
     pub const dwPlantedC4: &str = "48 8B 15 ?? ?? ?? ?? FF C0 48 8D 4C 24 40";
     pub const dwViewAngles: &str = "48 8B 0D ?? ?? ?? ?? E9 ?? ?? ?? ?? CC CC CC CC 40 55";
     pub const dwViewMatrix: &str = "48 8D 0D ?? ?? ?? ?? 48 C1 E0 06";
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
 }
 
 pub mod ProgramConfig {
