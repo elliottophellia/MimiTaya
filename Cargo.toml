@@ -1,11 +1,11 @@
-# Copyright (c) 2023 Vytrol <vytrol@proton.me> - Ophellia <me@rei.my.id>
+# Copyright (c) 2023 snipcola & elliottophellia
 # SPDX-License-Identifier: MIT
 
 [package]
 name = "MimiTaya"
-version = "19.12.23"
-authors = ["Vytrol <vytrol@proton.me>", "Ophellia <me@rei.my.id>"]
-edition = "2021"
+version = "28.01.24"
+authors = ["snipcola", "elliottophellia"]
+edition = "2024"
 license = "MIT"
 
 [dependencies]

@@ -1,4 +1,4 @@
-// Copyright (c) 2023 Vytrol <vytrol@proton.me> - Ophellia <me@rei.my.id>
+// Copyright (c) 2023 snipcola & elliottophellia
 // SPDX-License-Identifier: MIT
 
 use std::fs::{File, OpenOptions, read_dir, metadata, create_dir_all, remove_file};

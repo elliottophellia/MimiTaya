@@ -1,4 +1,4 @@
-// Copyright (c) 2023 Vytrol <vytrol@proton.me> - Ophellia <me@rei.my.id>
+// Copyright (c) 2023 snipcola & elliottophellia
 // SPDX-License-Identifier: MIT
 
 #![cfg_attr(all(target_os = "windows", not(debug_assertions)), windows_subsystem = "windows")]

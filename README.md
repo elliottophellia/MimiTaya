@@ -1,5 +1,5 @@
 <!--
-Copyright (c) 2023 Vytrol <vytrol@proton.me> - Ophellia <me@rei.my.id>
+Copyright (c) 2023 snipcola & elliottophellia
 SPDX-License-Identifier: MIT
 -->
 
@@ -8,7 +8,8 @@ SPDX-License-Identifier: MIT
 </h1>
 
 <p align="center">
-    Fork of ProExt by Vytrol, only updating offset and not planning to adding new features.<br/>
+    Free Open-source External Counter-Strike 2 Cheat/Hack<br/>
+    Fork of ProExt by Snipcola, only updating offset and not planning to adding new features<br/>
     There is bug? Code not efficient? Want to add new features? Feel free to pull request. 
 </p>
 
@@ -17,6 +18,22 @@ SPDX-License-Identifier: MIT
     <img src="https://img.shields.io/github/actions/workflow/status/elliottophellia/MimiTaya/build-deploy.yml?style=for-the-badge&logo=github&color=c958a1"/>
     <img src="https://img.shields.io/github/commit-activity/t/elliottophellia/MimiTaya?style=for-the-badge&logo=github&color=c958a1"/>
 </div>
+
+<h2>🌸 Download:</h2>
+<a href="https://github.com/elliottophellia/MimiTaya/releases/latest/download/MimiTaya.exe"><img src="https://img.shields.io/badge/DOWNLOAD-FROM%20GITHUB%20RELEASE-c958a1?style=for-the-badge&logo=github"/></a>
+<a href="https://drive.google.com/drive/folders/1otri-BVqwnUcl9-gcr7TExfgaJy0KamP?usp=sharing"><img src="https://img.shields.io/badge/DOWNLOAD-FROM%20GOOGLE%20DRIVE-c958a1?style=for-the-badge&logo=googledrive&logoColor=white"/></a>
+ 
+<h2>📋 Features:</h2>
+<li>ESP</li>
+<li>RCS</li>
+<li>Aimbot</li>
+<li>Triggerbot</li>
+<li>Crosshair</li>
+<li>Radar</li>
+<li>Bomb Timer</li>
+<li>Spectator List</li>
+<li>Styling</li>
+<li>Configuration</li>
 
 <h2>💬 Q&A:</h2>
 <h4><b>🤔  Is it free?</b></h4>
