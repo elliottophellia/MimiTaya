@@ -5,7 +5,7 @@
 name = "MimiTaya"
 version = "28.1.24"
 authors = ["snipcola", "elliottophellia"]
-edition = "2024"
+edition = "2021"
 license = "MIT"
 
 [dependencies]
