@@ -55,3 +55,6 @@ SPDX-License-Identifier: MIT
 <p>Yes, enable developer console and run the following:</p>
 
 <code>engine_no_focus_sleep 0</code>
+
+
+[<img src="https://api.gitsponsors.com/api/badge/img?id=731482148" height="20">](https://api.gitsponsors.com/api/badge/link?p=tov15MExZ6SA9se9AWZE5SsNlQgfkEHF2KJ22gEqDcXKPj08ptuRB2kqUkuEJZhuRwgDGDgJABLlabAD1LaycpaYbPGEgvwliFX6sKtbPiZfmbBQtmIjMPIOXz+CI1f7Mcmd/GcKvc3bA6D8jmMFMEqoF+fVyj0Y8U7grxc5uLM=)
